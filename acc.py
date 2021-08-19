@@ -16,7 +16,7 @@ class Account:
             file.write(str(self.balance))
 
 class Checking(Account):
-
+    
     def __init__(self,filepath,fee):
         Account.__init__(self, filepath)
         self.fee=fee
